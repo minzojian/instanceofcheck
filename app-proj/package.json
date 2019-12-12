@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@nestjs/common": "^6.10.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.3",
+    "rxjs-compat": "^6.5.3",
+    "lib-proj": "file:../lib-proj"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.15",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
+  },
+  "author": "",
+  "license": "ISC"
+}

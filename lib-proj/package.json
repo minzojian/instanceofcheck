@@ -1,0 +1,22 @@
+{
+  "name": "lib-proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@nestjs/common": "^6.10.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.3",
+    "rxjs-compat": "^6.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.15",
+	"typescript": "^3.7.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
