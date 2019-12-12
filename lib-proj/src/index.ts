@@ -7,4 +7,6 @@ export const test = error => {
   console.log(Reflect.getPrototypeOf(error));
   console.log(Reflect.getPrototypeOf(error) === BadRequestException);
   console.log("end");
+
+  return error instanceof BadRequestException;
 };
