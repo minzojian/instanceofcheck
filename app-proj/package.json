@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@nestjs/common": "^6.10.1",
+    "@nestjs/common": "^9.4.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.3",
     "rxjs-compat": "^6.5.3",
